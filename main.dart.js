@@ -58852,8 +58852,8 @@ $1(a){this.a.d.sm(!1)
 return null},
 $S:46}
 A.Eb.prototype={
-L(a){var s=null,r=this.f
-return A.Zf(B.ag,A.b([A.a8S(new A.yp(r.a.gwm(),new A.uP(r,s),s),s,s),this.Vj()],t.G),B.hu)},
+L(a){var s=this.f
+return A.Zf(B.ag,A.b([A.a8S(new A.yp(s.a.gwm(),new A.uP(s,null),null),650,650),this.Vj()],t.G),B.hu)},
 Vj(){return A.a9c(new A.a_L(this),this.x,t.y)},
 Vi(){return A.ach(B.yU,new A.a_M(this))},
 V0(){return new A.BF(A.ach(B.yS,new A.a_K(this)),new A.dm(!1,$.ar()),null)}}
@@ -58941,10 +58941,10 @@ return A.ab4(new A.Eb(r,s.gUz(),s.gOZ(),new A.dm(!1,$.ar()),null),null,null)},
 $S:389}
 A.yn.prototype={
 L(a){return new A.Ep(8,5,this.Pu(),null)},
-Pu(){var s,r,q,p="assets/videos/innvestock-preview.mp4",o="assets/logos/default-logo.png",n=A.b([],t.G),m=[new A.pv("Aplicaci\xf3n de bodegas","Aplicaci\xf3n para la gesti\xf3n de bodegas, creaci\xf3n de usuarios, coordinadores y operarios, creaci\xf3n de sedes, registro de productos con nombre, ubicaci\xf3n, peso, dimensiones e imagen.","assets/logos/innvestock-logo.png",p),new A.pv("E-commerce","Aplicaci\xf3n para venta de productos, rese\xf1as, edici\xf3n de perfil.",o,"assets/videos/e-commerce.mp4"),new A.pv("Tuten Pro","Aplicaci\xf3n para manejo de turnos, calendario, asignaci\xf3n de servicios.",o,p)]
-for(s=0;s<3;++s){r=m[s]
+Pu(){var s,r,q,p="assets/logos/default-logo.png",o=A.b([],t.G),n=[new A.pv("Aplicaci\xf3n de bodegas","Aplicaci\xf3n para la gesti\xf3n de bodegas, creaci\xf3n de usuarios, coordinadores y operarios, creaci\xf3n de sedes, registro de productos con nombre, ubicaci\xf3n, peso, dimensiones e imagen.","assets/logos/innvestock-logo.png","assets/videos/innvestock-preview.mp4"),new A.pv("E-commerce","Aplicaci\xf3n para venta de productos, rese\xf1as, edici\xf3n de perfil.",p,"assets/videos/e-commerce.mp4"),new A.pv("Tuten Pro","Aplicaci\xf3n para manejo de turnos, calendario, asignaci\xf3n de servicios.",p,"assets/videos/tuten.mp4")]
+for(s=0;s<3;++s){r=n[s]
 q=A.bL(0,500-200*s)
-n.push(A.ac_(!0,new A.yR(r.d,this.TO(r.a),new A.Mg(r),null),q))}return n},
+o.push(A.ac_(!0,new A.yR(r.d,this.TO(r.a),new A.Mg(r),null),q))}return o},
 TO(a){var s=$.mq.a
 if(s==null)return!1
 if(s.a===a)return!0
